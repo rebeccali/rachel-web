@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Rachel Li</title>
+  <generator uri="https://github.com/jekyll/jekyll">Jekyll v3.0.0</generator>
+    <icon>/apple-touch-icon-precomposed.png</icon>
+  <subtitle>Multi-talented actress, model, and singer</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="/" rel="alternate" type="text/html"/>
+  <updated>2015-12-25T15:28:28-05:00</updated>
+  <id>/</id>
+  <author>
+    <name>Rachel Li</name>
+    <uri>/</uri>
+    <email>rachel@emails.com</email>
+  </author>
+
+  
+  
+</feed>

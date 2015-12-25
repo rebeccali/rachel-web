@@ -1,161 +1,170 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Grayscale</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <link rel="canonical" href="https://example.github.io/">
+    <title> • Rachel Li</title>
+     <script src="/rachel-web/js/vendor/jquery-1.9.1.min.js"></script>
+<!--<script src="/rachel-web/js/fanxybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="/style.css">
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="/rachel-web/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/rachel-web/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
-    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="/rachel-web/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/rachel-web/js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/rachel-web/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<link rel="stylesheet" href="/rachel-web/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="/rachel-web/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="">
+	
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="/images/logo_120.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="">
+	
+	<meta property="og:url" content="/">
+	<meta property="og:site_name" content="Rachel Li">
+
+    <link rel="canonical" href="/">
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Rachel Li Atom Feed">
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="/rachel-web/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
     <![endif]-->
 
-</head>
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
-                </a>
-            </div>
+  </head>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="/" class="site-title">Rachel Li</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Rachel Li</a></li>
+	
+    
+    <li><a href="/about/" >About</a></li>
+  
+    
+    <li><a href="/contact/" >Contact</a></li>
+  
+    
+    <li><a href="/soprano/" >Soprano</a></li>
+  
+    
+    <li><a href="/model/" >Model</a></li>
+  
+    
+    <li><a href="/actress/" >Actress</a></li>
+  
+</ul>
     </nav>
-        <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-        <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>The Jekyll version is brought to you by <a href="https://github.com/jeromelachaud">Jerome Lachaud</a></p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-            </div>
-        </div>
-    </section>
-        <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
-            </div>
-        </div>
-    </section>
-        <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Dolor reprehenderit repellendus, optio labore odio at tempore debitis nisi. Quasi debitis tenetur eaque molestias non porro odio sapiente.</p>
-                <p><a href="mailto:your-email@domain.com">your-email@domain.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
-                    </li>
-                    
-                    <li>
-                        <a href="" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
-                    </li>
-                    
-                    <li>
-                        <a href="http://stackoverflow.com/questions/tagged/jekyll" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow fa-fw"></i> <span class="network-name">stack-overflow</span></a>
-                    </li>
-                    
-                    <li>
-                        <a href="http://bitbucket.org/jekyll" class="btn btn-default btn-lg"><i class="fa fa-bitbucket fa-fw"></i> <span class="network-name">bitbucket</span></a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">github</span></a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </section>
-        <!-- Map Section -->
-    <div id="map"></div>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Rachel Li <span>Table of Contents</span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="/about/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">About</div>
+        <p class="excerpt">The human behind the face</p>
+      </a>
+    </li><li>
+      <a href="/contact/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Contact</div>
+        <p class="excerpt">Contact Rachel Li</p>
+      </a>
+    </li><li>
+      <a href="/soprano/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Soprano</div>
+        <p class="excerpt">Listen to her classically trained voice</p>
+      </a>
+    </li><li>
+      <a href="/model/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Model</div>
+        <p class="excerpt">Elegant, vivacious, enchanting</p>
+      </a>
+    </li><li>
+      <a href="/actress/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Actress</div>
+        <p class="excerpt">Master of masks</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
 
-        <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2015</p>
-        </div>
-    </footer>
+<div id="js-menu-screen" class="menu-screen"></div>
 
-     <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
+    <div id="page-wrapper">
+      <div id="main" role="main">			
+	<div class="wrap">
+		
+		<div class="page-title">
+			<h1></h1>
+			
+		</div>
+		<div class="archive-wrap">
+			<div class="page-content">
+				<p>Multi-talented actress, model, and singer</p>
 
-    <!-- Plugin JavaScript -->
-    <script src="/js/jquery.easing.min.js"></script>
+<!--
+<div class="tiles">
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+</div><!-- /.tiles -->
 
-    <!-- Custom Theme JavaScript -->
-    <script src="/js/grayscale.js"></script>
-    </body>
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+</div><!-- /#main -->
+      
+    </div>
+    <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="" ></a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2015 <a href="">Rachel Li</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    
+    <script src="/rachel-web/js/main.js"></script>   
+
+  </body>
+
 </html>
